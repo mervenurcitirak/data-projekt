@@ -1,0 +1,48 @@
+/* Styles for grid and detail view */
+#gridSection {
+  margin-bottom: 20px;
+}
+
+#gridTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#gridTable th,
+#gridTable td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+#detailSection {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Styles for header and footer */
+header,
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+/* Other styles */
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#gridTable .grid-image {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  object-fit: cover; /* Adjust how the image is resized to fit */
+}
